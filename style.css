@@ -1,0 +1,63 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF0F5; /* Rosa claro */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFB6C1; /* Rosa suave */
+    color: #8B0000; /* Rojo oscuro */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Georgia', serif;
+}
+
+/* Estilo de la galería */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    position: relative;
+    display: inline-block;
+}
+
+#mainPhoto {
+    width: 300px;  /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+    object-fit: cover; /* Ajusta la imagen sin deformarla (corta la imagen si es necesario para que ocupe todo el espacio) */
+    border-radius: 10px;
+}
+
+/* Efecto de "Me gusta" */
+.liked {
+    border: 5px solid #FF6347; /* Rojo tomate */
+    box-shadow: 0 0 15px #FF6347; /* Efecto de brillo suave */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF1493; /* Rosa fuerte */
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Rosa intenso */
+}
+
